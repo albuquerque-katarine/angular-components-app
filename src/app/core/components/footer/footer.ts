@@ -1,0 +1,13 @@
+import { Component, signal } from '@angular/core';
+
+@Component({
+  selector: 'app-footer',
+  standalone: true,
+  imports: [],
+  templateUrl: './footer.html',
+  styleUrl: './footer.css',
+})
+export class Footer {
+
+  description = signal<string>('Kba Portfólio ©2026');
+}

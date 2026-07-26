@@ -1,0 +1,29 @@
+<div class="flex flex-col items-center justify-center h-dvh bg-gray-900">
+
+  <app-header></app-header>
+
+  <main class="main my-5">
+
+    <form (ngSubmit)="enviar()">
+
+      <input 
+       type="text"
+       name="name"
+       [(ngModel)]="name"
+       placeholder="Seu nome..."
+       class="border border-green-400 `w-[100%] rounded-sm mb-3 p-3 bg-white"
+      >&nbsp;
+
+      <button 
+       type="submit" 
+       class=" border-2 border-green-400 bg-green-600 rounded-sm font-bold text-white p-3 cursor-pointer hover:bg-green-700">Enviar</button>
+
+    </form>
+
+    <h3 class="text-center text-white text-2xl">{{ response == '' ? '' : 'Olá, ' + response + "!" }}</h3>
+
+  </main>
+
+  <app-footer></app-footer>
+
+</div>
