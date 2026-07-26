@@ -6,6 +6,8 @@
 
 Desenvolver um formulário simples em Angular utilizando **FormsModule**, **Signals** e **data binding** para capturar e exibir dados do usuário. O projeto demonstra o uso de **condição ternária** na interface, **Tailwind CSS** para estilização, componentes reutilizáveis e eventos de formulário com **ngSubmit**.
 
+Acesse o aplicativo: [Components Angular](https://albuquerque-katarine.github.io/angular-components-app-2/)
+
 ## Tecnologias
 
 * Angular
